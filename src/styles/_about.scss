@@ -1,0 +1,143 @@
+.AboutPage {
+    p, h5 {
+        font-family: 'Open Sans', sans-serif;
+    }
+    p {
+        font-size: 1.05rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+}
+.ImageSection{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    .img{
+        width: 100%;
+        height: 50vh;
+        img{
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+    color:#2d283e;
+
+    .about-info{
+        margin-left: 2rem;
+        h5 {
+            font-size: 1.5rem;
+            color: #6382dd;
+        }
+        .about-text {
+            padding: 1rem 0;
+        }
+    }
+    @media screen and (max-width: 1400px){
+        flex-direction: column;
+        .about-info{
+            margin-left: 0;
+            margin-top: 1rem;
+        }
+    }
+    
+}
+
+.about-details{
+    display: grid;
+    grid-template: auto auto auto auto / auto auto;
+    .right-item {
+        align-self: center;
+        padding-left: 0.3rem;
+    }
+    .left-item {
+        text-align: center;
+    }
+    .abt-icon {
+        font-size: 2.1rem; 
+        padding: 0.3rem 0.3rem 0.3rem 0rem;
+    }
+}
+.btn {
+    margin-top: 1.8rem;
+}
+.btn a:link, .btn a:visited {
+    padding: 0.7rem 1.5rem;
+    background-color: #6382dd;
+    outline: none;
+    font-family:Verdana;
+    font-size: inherit;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: .3rem;
+        left: 0;
+        bottom: 0;
+        background-color: #a4acc4;
+        transition: all 0.4s ease-in-out;
+    }
+    &:hover::after{
+        width: 100%;
+        color:white;
+    }
+}
+
+.skillsContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.5rem;
+    row-gap: 2.5rem;
+    margin: 3rem 0 4rem 0;
+    @media screen and (max-width: 1100px){
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.btn-port{
+    padding: .4rem 1rem;
+    background-color: #0381ff5b;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: inherit;
+    color: white;
+    margin-bottom: 1rem;
+    transition: all .3s ease-in-out;
+    &:not(:last-child){
+        margin-right: 1rem;
+    }
+    &:hover{
+        background-color: #6382dd;
+    }
+    &:active{
+        background-color: #6382dd;
+    }
+    &:focus{
+        background-color: #6382dd;
+    }
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 10rem;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1270px){
+        margin: 2rem 5rem;
+    }
+    @media screen and (max-width: 1100px){
+        margin: 2rem 2rem;
+    }
+}
+
+

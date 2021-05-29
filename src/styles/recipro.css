@@ -1,0 +1,38 @@
+.r-container {
+    margin-bottom: 3rem;
+    font-family: 'Open Sans';
+    
+}
+
+.r-container h5 {
+    color:#6382dd;
+    font-size: 1.5rem;
+    padding-bottom: 0.4rem;
+}
+
+.r-container p {
+    color: #2d283e;
+    font-size: 1rem;
+}
+span {
+    color:#2d283e;
+    font-weight: 600;
+}
+.r-container ul {
+    display: table;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+.inspiration-list {
+    width: 96%;
+}
+
+.r-table {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.r-table img {
+    width: 200px;
+    height: auto;
+}
