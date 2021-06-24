@@ -3,16 +3,17 @@
     align-self: center;
     .contact {
         display: grid;
-        background-color:#f0e4da; 
+        background-color:#f0e9e1; 
         grid-template-columns: 25% 75%;
         align-items: center;
         padding: 0.56rem 0;
-        border-bottom: #2d283e 4px solid;
         .contact-icon {
             margin-left: 1rem;
             padding: 0.4rem;
             font-size: 2.7rem;
             cursor: pointer;
+            color: #2d283e;
+            border: 1px solid gray;
         }
         .right-items {
             padding:0.4rem;
@@ -61,17 +62,14 @@
         margin-bottom: 0.78rem;
     }
 }
-
-.contact-icon {
-    color: #2d283e;
-    border: 1px solid gray;
+.ContactItem {
+    border-bottom: #2d283e 4px solid;
     transition: all 500ms;
 }
-
-.contact-icon:hover {
-    color: #6382dd;
-    border: 1px solid #6382dd;
+.ContactItem:hover {
+    border-bottom: #6382dd 4px solid;
 }
+
 // .map-sect{
 //     width: 97%;
 //     padding: 1rem;

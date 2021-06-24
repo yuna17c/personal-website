@@ -28,10 +28,10 @@ function AboutPage() {
             <Tittle title={'My Experience'} span={'My Experience'} />
             <div className="servives-container">
                 <ServicesSection image={novantas} title={'Technical QA Engineer'} 
-                text={'As a QA engineer, I designed and implemented debugging strategies for comprehensive and re-usable automated testing solutions. Over the four months of this internship, I...'} 
-                list1={'Wrote automation scripts using Python, Robot framework, and Postman'}
-                list2={'Improved PriceTek, an optimization and product management tool for banking services'}
-                list3={'Created and maintained 50+ documentations for automated testing'}
+                text={'As a QA engineer, I designed and implemented debugging strategies for comprehensive and re-usable automated testing solutions. Over the four months of this internship, I:'} 
+                list1={'Wrote automation scripts using Python, Robot framework, and Cypress and tested API using Postman.'}
+                list2={'Participated in the development of Amplero, an AI based messaging app and Tikitapu, a data pipeline. '}
+                list3={'Created and maintained 100+ documentations for automated and manual testing'}
                 list4={'Interacted with the team to discuss code reviews and test analysis'}
                 where={'Novantas Inc.'} date={' MAY 2021 - AUG 2021'} link={"https://www.novantas.com/"}
                 />

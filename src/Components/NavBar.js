@@ -1,6 +1,6 @@
 import React from 'react'
 import avatar from '../img/vector.png';
-import picture_1 from  '../img/profile_1.jpg';
+import picture_1 from  '../img/vector.png';
 import {NavLink} from 'react-router-dom';
 
 function Navbar() {

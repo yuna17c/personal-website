@@ -16,7 +16,7 @@ function HomePage() {
                         <span> a developer.</span>
                         <span> an athlete.</span>
                         <span> a student.</span>
-                        <span> a tester.</span>
+                        <span> a tech enthusiast.</span>
                     </div>
                 </h1>
                 <p className="h-sub-text">

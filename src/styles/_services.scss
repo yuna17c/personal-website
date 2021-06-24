@@ -6,18 +6,19 @@ a:link, a:hover, a:visited, a:active {
     .service{
         font-family: 'Open sans';
         width: 95%;
-        background-color: #191D2B;
-        border-left: 1px solid #2e344e;
-        border-right: 1px solid #2e344e;
-        border-bottom: 1px solid #2e344e;
-        border-top: 8px solid #2e344e;
+        //background-color: #f0e9e1;
+        // border-left: 1px solid #2e344e;
+        // border-right: 1px solid #2e344e;
+        // border-bottom: 1px solid #2e344e;
+        border-bottom: 5px solid #2e344e;
         transition: all .4s ease-in-out;
         @media screen and (max-width:1400px){
             width: 100%;
-            margin-bottom: 1rem;
+            margin-bottom: 4rem;
         }
         &:hover{
-            border-top: 8px solid #6382dd;
+            border-bottom: 5px solid #6382dd;
+            background-color: #f0e9e1;
         }
         img {
             width: 13rem;
@@ -27,7 +28,7 @@ a:link, a:hover, a:visited, a:active {
         .service-content{
             padding: 1rem;
             span {
-                color: #a4acc4;
+                color: black;
                 font-size: 1.2rem;
                 font-weight: 400;
                 line-height: 1.9rem;
@@ -50,7 +51,7 @@ a:link, a:hover, a:visited, a:active {
                 color:#6382dd;
             }
             p {
-                color: white;
+                color: black;
                 font-weight: 300;
                 text-transform: none;
                 text-decoration: none;
@@ -61,7 +62,7 @@ a:link, a:hover, a:visited, a:active {
                 position: relative;
                 padding-bottom: 1rem;
                 margin: 1rem 0;
-                color: white;
+                color: black;
                 &::after{
                     content: "";
                     position: absolute;

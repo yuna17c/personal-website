@@ -23,7 +23,7 @@ function ImageSection() {
                     Hi there, nice to meet you!
                 </h5>
                 <p className="about-text">
-                    My name's Yuna and I'm a first year computer science and financial management student at University of Waterloo.
+                    My name's Yuna and I'm a second year computer science student at University of Waterloo.
                 </p>
                 <div className="about-details">
                         <div className={"left-item"}><FontAwesomeIcon icon={faHandHoldingHeart} className={"abt-icon"}/></div>

@@ -5,7 +5,8 @@ import allBlogs from '../Components/allBlogs';
 function BlogsPage() {
     return (
         <div >
-            <div className="b-title">
+            <Tittle title={'More'} span={'More'} />
+            {/* <div className="b-title">
                 <Tittle title={'MY Journey'} span={'MY Journey'} />
                 <p>One of my personal goals is to create a community where help and volunteering are easily accessible and reciprocated.
                As someone who benefited greatly from community help growing up, I wish to reciprocate this and make changes with my abilities.
@@ -25,7 +26,7 @@ function BlogsPage() {
                         </div>
                     })
                 }
-            </div>
+            </div> */}
             
         </div>
     )
