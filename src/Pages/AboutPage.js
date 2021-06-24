@@ -34,7 +34,6 @@ function AboutPage() {
                 list3={'Created and maintained 50+ documentations for automated testing'}
                 list4={'Interacted with the team to discuss code reviews and test analysis'}
                 where={'Novantas Inc.'} date={' MAY 2021 - AUG 2021'} link={"https://www.novantas.com/"}
-                link2={'Learn more about my experience at Novantas.'}
                 />
                 <ServicesSection image={intelligence} title={'Math Tutor'} where={'Marc Andrei Tutoring'}
                 date={'SEP 2018 - APR 2020'} link={'https://www.marcandrei.com/'}

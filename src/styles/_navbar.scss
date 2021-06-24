@@ -10,10 +10,11 @@
         .profile{
             width: 100%;
             text-align: center;
-            margin-top: 1.5rem;
-            //border-bottom: 1px solid #2e344e;
-            img{
-                width: 70%;
+            margin-top: 3rem;
+            //border: 1px solid #2e344e;
+            img {
+                width: 50%;
+                height: auto;
                 border-radius: 100%;
                 //border: 4px solid #2d283e;
                 //margin-bottom: 1.5rem;
@@ -27,7 +28,7 @@
                 text-align: center;
                 a {
                     text-decoration: none;
-                    font-size: 15px;
+                    font-size: 1rem;
                     color: #2d283e;
                     display: block;
                     padding: 1rem 0;

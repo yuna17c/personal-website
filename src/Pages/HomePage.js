@@ -4,7 +4,6 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Link} from 'react-router-dom';
-import avatar from '../img/vector_avatar.jpg';
 
 function HomePage() {
     return (
@@ -21,9 +20,9 @@ function HomePage() {
                     </div>
                 </h1>
                 <p className="h-sub-text">
-                    I'm a computer science and financial management student @ UWaterloo. 
+                    I'm a computer science student at University of Waterloo. 
                     I love creating apps and softwares and some of the areas of my interests include: fintech, machine learning, software development, data science and game development.
-                    In my free time, you'll find me playing sports (especially tennis and ping pong), watching movies and crocheting. 
+                    In my free time, you'll find me playing sports (probably tennis and ping pong), watching movies and crocheting. 
                     Learn more about <Link to="about" className="links">me</Link>, <Link to="portfolios" className="links">my projects</Link> and <Link to="blogs" className="links">my interests.</Link>
                 </p>
                 

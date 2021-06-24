@@ -3,16 +3,15 @@
     align-self: center;
     .contact {
         display: grid;
-        background-color:#161925; 
+        background-color:#f0e4da; 
         grid-template-columns: 25% 75%;
         align-items: center;
-        padding: 1rem 0;
+        padding: 0.56rem 0;
+        border-bottom: #2d283e 4px solid;
         .contact-icon {
-            border: 1px solid gray;
             margin-left: 1rem;
             padding: 0.4rem;
             font-size: 2.7rem;
-            color: white;
             cursor: pointer;
         }
         .right-items {
@@ -20,7 +19,7 @@
             h6 {
                 font-size: 1.15rem;
                 font-weight: 500;
-                color: white;
+                color: black;
             }
             p {
                 font-size: 1rem;
@@ -32,18 +31,9 @@
 .ContactPage{
     display: grid;
     grid-template-rows: auto auto;
-    grid-row-gap: 2rem;
-    font-family: 'Inconsolata', sans-serif;
-    line-height: 1.2;
-    h5 {
-        color: #2d283e;
-        font-size: 2rem;
-        font-family: 'Inconsolata', sans-serif;
-        margin-bottom: 0.5rem;
-    }
-    .description p {
-        color: #2d283e;
-    }
+    grid-row-gap: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.3;
     @media screen and (max-width: 1270px){
         grid-template-columns: repeat(1, 1fr);
         .map-sect{
@@ -59,15 +49,38 @@
         width: 100%;
     }
 }
-.map-sect{
-    width: 97%;
-    padding: 1rem;
-    background-color:#191D2B;
-    iframe{
-        width: 100%;
-        height: 100%;
+.right-items p {
+    color: #696461;
+    margin-top: 3px;
+    font-size: 0.82rem;
+}
+.description {
+    color: #2d283e;
+    h5 {
+        font-size: 1.5rem;
+        margin-bottom: 0.78rem;
     }
 }
+
+.contact-icon {
+    color: #2d283e;
+    border: 1px solid gray;
+    transition: all 500ms;
+}
+
+.contact-icon:hover {
+    color: #6382dd;
+    border: 1px solid #6382dd;
+}
+// .map-sect{
+//     width: 97%;
+//     padding: 1rem;
+//     background-color:#191D2B;
+//     iframe{
+//         width: 100%;
+//         height: 100%;
+//     }
+// }
 
 .contact-sect{
     display: flex;

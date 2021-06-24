@@ -20,9 +20,8 @@ a:link, a:hover, a:visited, a:active {
             border-top: 8px solid #6382dd;
         }
         img {
-            height: auto; 
-            width: auto; 
-            max-width: 15rem; 
+            width: 13rem;
+            height: auto;
         }
         
         .service-content{
@@ -30,12 +29,14 @@ a:link, a:hover, a:visited, a:active {
             span {
                 color: #a4acc4;
                 font-size: 1.2rem;
+                font-weight: 400;
                 line-height: 1.9rem;
                 white-space: pre;
                 text-decoration: none;
             }
             .s-date {
-                font-size: 1.1rem;
+                font-size: 1rem;
+                font-weight: 400;
             }
             .s-list {
                 width: 80%;
@@ -55,7 +56,7 @@ a:link, a:hover, a:visited, a:active {
                 text-decoration: none;
             }
             .s-title{
-                font-size: 1.4rem;
+                font-size: 1.3rem;
                 font-weight: 400;
                 position: relative;
                 padding-bottom: 1rem;

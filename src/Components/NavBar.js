@@ -1,5 +1,6 @@
 import React from 'react'
 import avatar from '../img/vector.png';
+import picture_1 from  '../img/profile_1.jpg';
 import {NavLink} from 'react-router-dom';
 
 function Navbar() {
@@ -7,7 +8,7 @@ function Navbar() {
         <div className="NavBar">
             <nav className="nav">
                 <div className="profile">
-                    <img src={avatar} alt=""/>
+                    <img src={picture_1} alt=""/>
                  </div>
 
                 <ul className="nav-items">

@@ -4,15 +4,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function ContactItem({icon, text1, text2,title}) {
     return (
         <div className="ContactItem">
-            <div className="contact">
-                <div>
-                    <a href={text2} target="blank"><FontAwesomeIcon icon={icon} className={"contact-icon"}/></a>
+            <a href={text2} target="blank">
+                <div className="contact">
+                    <div>
+                        <FontAwesomeIcon icon={icon} className={"contact-icon"}/>
+                    </div>
+                    <div className="right-items">
+                        <h6>{title}</h6>
+                        <p>{text1}</p>
+                    </div>
                 </div>
-                <div className="right-items">
-                    <h6>{title}</h6>
-                    <p>{text1}</p>
-                </div>
-            </div>
+            </a>
         </div>
     )
 }
