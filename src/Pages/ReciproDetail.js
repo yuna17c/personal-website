@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/recipro.css';
 import r1 from '../img/r1.png';
 import r2 from '../img/r2.png';
 import r3 from '../img/r3.png';

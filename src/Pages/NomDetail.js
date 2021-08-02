@@ -1,10 +1,9 @@
 import React from 'react';
 import '../styles/nom.css';
-import '../styles/recipro.css';
 
 function Nom() {
     return (
-       <div>
+       <div className="nom">
            <div className="r-container">
                <h4>Manage your Fridge</h4>
                <p></p>
