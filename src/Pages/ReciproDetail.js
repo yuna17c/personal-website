@@ -19,7 +19,7 @@ function Recipro() {
                     Studies show that the majority of people in urban areas report that they know a “few” neighbours, while 8% report knowing none of their neighbours. 
                     This is important because whether one knows their neighbour is strongly linked with social trust, a strong indicator of happiness. The problem exacerbates in suburban areas as not knowing one’s neighbour is most likely among those that live in detached houses.
                     Recipro aims to solve the lack of social capital in modern world. 
-</p>
+                </p>
            </div>
            <div className="r-container">
                <h5>Market Research</h5>

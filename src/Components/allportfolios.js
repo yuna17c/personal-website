@@ -1,8 +1,8 @@
 import port1 from '../img/recipro.png';
 import port2 from '../img/nom.png';
 import port3 from '../img/spendix.png';
-import port4 from '../img/portImages/port3.jpg';
-import port6 from '../img/portImages/port5.jpg';
+import port4 from '../img/portImages/port4.jpg';
+import port5 from '../img/cyber1.PNG';
 import port7 from '../img/portImages/port6.jpg';
 
 const portfolios = [
@@ -36,27 +36,38 @@ const portfolios = [
         icon1: 'Github',
         icon2: 'Details',
         image: port3,
+        title: 'Financial Analysis App',
+        desc:"A user interface application for personal finance analysis such as spending habits and budgeting."
+    },
+    {
+        id: 4,
+        category: 'Python App',
+        link1: 'https://github.com/yuna17c/expense-tracker-chrome',
+        link2: 'spendix',
+        icon1: 'Github',
+        icon2: 'Details',
+        image: port3,
         title: 'Expense Tracker',
         desc:"A chrome extension to keep track of money you spend online."
     },
     {
-        id: 4,
+        id: 5,
         category: 'Game',
-        link1: 'www.youtube.com',
+        link1: 'https://github.com/yuna17c/Cyber-Bugs',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port3,
+        icon1: 'Github',
+        icon2: 'Details',
+        image: port5,
         title: 'Cyber Bugs',
         desc:"2D wave clear adventure game. Clear the viruses using various items, potions, and portals."
     },
     {
-        id: 5,
+        id: 6,
         category: 'Game',
-        link1: 'www.youtube.com',
+        link1: 'https://github.com/yuna17c/Rack-O',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'Github',
+        icon2: 'Details',
         image: port4,
         title: 'Rack-O',
         desc:"A web implementation of the card game Rack-O."
