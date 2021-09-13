@@ -12,6 +12,8 @@ import './index.css';
 import Nom from './Pages/NomDetail';
 import CyberBug from './Pages/CyberDetail'
 import Racko from './Pages/RackoDetail';
+import FinancialAnalysis from './Pages/FinanceDetail';
+import ExpenseTracker from './Pages/ExpenseDetail';
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -59,6 +61,12 @@ function App() {
               </Route>
               <Route path="/racko" exact>
                 <Racko />
+              </Route>
+              <Route path="/tracker" exact>
+                <ExpenseTracker />
+              </Route>
+              <Route path="/finance" exact>
+                <FinancialAnalysis />
               </Route>
             </Switch>
           </div>
