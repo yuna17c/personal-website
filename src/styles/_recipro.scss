@@ -1,4 +1,4 @@
-.recipro, .nom {
+.recipro, .nom, .racko {
     width: 92%;
     padding: 4rem;
     color: #2d283e;
@@ -21,7 +21,12 @@
         font-weight: 600;
     }
 }
-
+.racko img {
+    width: 65%; 
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
 .r-header {
     margin-bottom: 3rem;
     font-family: 'Open Sans';

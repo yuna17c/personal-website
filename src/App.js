@@ -10,6 +10,8 @@ import Recipro from './Pages/ReciproDetail';
 import { useState } from 'react';
 import './index.css';
 import Nom from './Pages/NomDetail';
+import CyberBug from './Pages/CyberDetail'
+import Racko from './Pages/RackoDetail';
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -51,6 +53,12 @@ function App() {
               </Route>
               <Route path="/nom" exact>
                 <Nom />
+              </Route>
+              <Route path="/cyberbug" exact>
+                <CyberBug />
+              </Route>
+              <Route path="/racko" exact>
+                <Racko />
               </Route>
             </Switch>
           </div>

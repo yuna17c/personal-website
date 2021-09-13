@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/nom.css';
 
 function Nom() {
     return (
@@ -25,8 +24,18 @@ function Nom() {
                <p>features</p>
            </div>
            <div className="r-container">
-               <h5>How we built it</h5>
-               <p>Using React Native</p>
+               <h5>Built with</h5>
+               <ul className="inspiration-list">
+                   <li><p>Android Studio</p></li>
+                    <li><p>XML</p></li>
+                    <li><p>Figma</p></li>
+                    <li><p>Adobe Photoshop</p></li>
+                </ul>
+                <h5>Designed using</h5>
+               <ul className="inspiration-list">
+                    <li><p>Figma</p></li>
+                    <li><p>Adobe Photoshop</p></li>
+                </ul>
            </div>
        </div>
     )

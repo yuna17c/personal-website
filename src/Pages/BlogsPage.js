@@ -6,6 +6,7 @@ function BlogsPage() {
     return (
         <div >
             <Tittle title={'More'} span={'More'} />
+            <h4>Coming Soon!</h4>
             {/* <div className="b-title">
                 <Tittle title={'MY Journey'} span={'MY Journey'} />
                 <p>One of my personal goals is to create a community where help and volunteering are easily accessible and reciprocated.

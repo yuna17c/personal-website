@@ -6,10 +6,10 @@ import r4 from '../img/r4.png';
 
 function Recipro() {
     return (
-       <div>
+       <div className="recipro">
            <div className="r-container">
-               <h4>Increase your social capital</h4>
-               <p>Reciprocate acts of kindness</p>
+               <h4>Reciprocate acts of kindness</h4>
+               <p>Increase your social capital</p>
            </div>
            <div className="r-container">
                <h5>Problem</h5>
@@ -48,7 +48,8 @@ function Recipro() {
                <ul className="inspiration-list">
                    <li><p>React Native</p></li>
                     <li><p>Firestore Firebase</p></li>
-                    </ul>
+                    <li><p>Figma</p></li>
+                </ul>
            </div>
        </div>
     )
