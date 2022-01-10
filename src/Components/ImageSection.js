@@ -29,11 +29,11 @@ function ImageSection() {
                         <div className={"left-item"}><FontAwesomeIcon icon={faHandHoldingHeart} className={"abt-icon"}/></div>
                         <div className={"right-item"}><p>My latest project is recipro, a mobile app that connects neighbours to provide & reciprocate help. </p></div>
                         <div className={"left-item"}><FontAwesomeIcon icon={faLaptopCode} className={"abt-icon"}/></div>
-                        <div className={"right-item"}><p>My favourite tools: Python, React Native, firebase, HTML/CSS, JavaScript, and Git</p></div>
+                        <div className={"right-item"}><p>Some of my favourite tools are Python, C++, and React Native, and I like working with APIs.</p></div>
                         <div className={"left-item"}><FontAwesomeIcon icon={faFileContract} className={"abt-icon"}/></div>
-                        <div className={"right-item"}><p>I'm currently learning: Unity, SQL and Android Studio</p></div>
-                        <div className={"left-item"}><FontAwesomeIcon icon={faPencilRuler} className={"abt-icon"}/></div>
-                        <div className={"right-item"}><p>Fun fact: I have designed and created sweaters by crocheting!</p></div>
+                        <div className={"right-item"}><p>I'm currently learning: Django, Jupyter Notebook</p></div>
+                        {/* <div className={"left-item"}><FontAwesomeIcon icon={faPencilRuler} className={"abt-icon"}/></div>
+                        <div className={"right-item"}><p>Fun fact: I have designed and created sweaters by crocheting!</p></div> */}
                 </div>
                 <div className="btn">
                     <a href="https://drive.google.com/file/d/1UeP4h7aHOz7l6wI7ltMp6iXC8X_zcBQX/view" target="blank">

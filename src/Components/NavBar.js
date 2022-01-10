@@ -41,7 +41,7 @@ function Navbar() {
 
                 <footer className="footer">
                     <p>
-                        @ 2021 Made By Yuna Choi
+                        @ 2022 Made By Yuna Choi
                     </p>
             </footer>
             </nav>

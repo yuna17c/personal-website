@@ -14,14 +14,14 @@ function AboutPage() {
             <ImageSection />
             <Tittle title={'My Skills'} span={'My Skills'} />
             <div className="skillsContainer">
-                <SkillsSection skill={'Python'} progress={'94%'} width={'94%'} />
-                <SkillsSection skill={'C'} progress={'90%'} width={'90%'} />
+                <SkillsSection skill={'Python'} progress={'95%'} width={'95%'} />
+                <SkillsSection skill={'C/C++'} progress={'95%'} width={'95%'} />
                 <SkillsSection skill={'React Native'} progress={'75%'} width={'75%'} />
                 <SkillsSection skill={'HTML/CSS'} progress={'88%'} width={'88%'} />
                 <SkillsSection skill={'JavaScript'} progress={'70%'} width={'70%'} />
                 <SkillsSection skill={'Web Design'} progress={'70%'} width={'70%'} />
                 <SkillsSection skill={'Microsoft Office Suite'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'SQL'} progress={'50%'} width={'50%'} />
+                <SkillsSection skill={'SQL'} progress={'70%'} width={'70%'} />
                 {/* <SkillsSection skill={'UI/Ux Design'} progress={'76%'} width={'76%'} /> */}
             </div>
 
@@ -33,7 +33,7 @@ function AboutPage() {
                 list2={'Participated in the development of Amplero, an AI based messaging app and Tikitapu, a data pipeline. '}
                 list3={'Created and maintained 100+ documentations for automated and manual testing'}
                 list4={'Interacted with the team to discuss code reviews and test analysis'}
-                where={'Novantas Inc.'} date={' MAY 2021 - AUG 2021'} link={"https://www.novantas.com/"}
+                where={'Curinos Inc.'} date={' MAY 2021 - AUG 2021'} link={"https://curinos.com/"}
                 />
                 <ServicesSection image={intelligence} title={'Math Tutor'} where={'Marc Andrei Tutoring'}
                 date={'SEP 2018 - APR 2020'} link={'https://www.marcandrei.com/'}
