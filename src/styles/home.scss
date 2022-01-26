@@ -1,0 +1,98 @@
+.HomePage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 76%;
+    line-height: 1.4;
+    border: $primary 2px solid;
+    .links {
+        color: $primary;
+    }
+}
+
+.hero-text {
+    color: $beige;
+    top: 50%;
+    padding-left: 5%;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Tajawal';
+}
+.rotation {
+    display:inline-block;
+}
+.rotation span {
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    top: 0;
+    padding-left: 1.1rem;
+    animation: animate 9s linear infinite;
+    color: $primary;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateY(-45px);
+    }
+    3% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    17% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    20% {
+        opacity: 0;
+        transform: translateY(45px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(45);
+    }
+}
+.rotation span:nth-child(1) {
+    animation-delay: 0s;
+}
+.rotation span:nth-child(2) {
+    animation-delay: 2.2s;
+}
+.rotation span:nth-child(3) {
+    animation-delay: 4.4s;
+}
+.rotation span:nth-child(4) {
+    animation-delay: 6.6s;
+}
+
+.h-sub-text {
+    font-size: 1.27rem;
+    padding: 0.5rem 0 0.5rem 5.5%;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.8rem 0;
+    .icon-holder {
+        margin-right: 1rem;
+        .icon {
+           font-size: 3.5rem;
+           margin: 0.5rem;
+           color: $beige;
+           transition: all .4s ease-in-out;
+        }
+        .fb:hover {
+            color: rgb(82, 101, 207);
+        }
+        .gh:hover {
+            color: #F36565;
+        }
+        .yt:hover {
+            color: rgb(82, 101, 207);
+        }
+    }
+}

@@ -1,47 +1,49 @@
 import React from 'react';
-import about from '../img/dev.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons';
-import { faPencilRuler } from '@fortawesome/free-solid-svg-icons';
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
-import { faFileContract } from '@fortawesome/free-solid-svg-icons';
-import { faSuitcaseRolling } from '@fortawesome/free-solid-svg-icons';
-import { faFilm } from '@fortawesome/free-solid-svg-icons';
-import { faSmileWink } from '@fortawesome/free-regular-svg-icons';
+import { faFileCode, faHandHoldingHeart, faHeadphonesAlt, faHeart, faLaughBeam, faSeedling } from '@fortawesome/free-solid-svg-icons';
+import pfp from '../img/profile_pic.jpg';
 
 
 function ImageSection() {
     return (
         <div className="ImageSection">
-            {/* <div className="img">
-                <img src={about} alt=""/>
-            </div> */}
             <div className="about-info">
-                <h5>
-                    Hi there, nice to meet you!
-                </h5>
-                <p className="about-text">
-                    My name's Yuna and I'm a second year computer science student at University of Waterloo.
-                </p>
+                <img src={pfp} alt="" id="pfp"/>
+                <table>
                 <div className="about-details">
-                        <div className={"left-item"}><FontAwesomeIcon icon={faHandHoldingHeart} className={"abt-icon"}/></div>
-                        <div className={"right-item"}><p>My latest project is recipro, a mobile app that connects neighbours to provide & reciprocate help. </p></div>
-                        <div className={"left-item"}><FontAwesomeIcon icon={faLaptopCode} className={"abt-icon"}/></div>
-                        <div className={"right-item"}><p>Some of my favourite tools are Python, C++, and React Native.</p></div>
-                        <div className={"left-item"}><FontAwesomeIcon icon={faFileContract} className={"abt-icon"}/></div>
-                        <div className={"right-item"}><p>I'm currently learning: Django, Jupyter Notebook</p></div>
-                        {/* <div className={"left-item"}><FontAwesomeIcon icon={faPencilRuler} className={"abt-icon"}/></div>
-                        <div className={"right-item"}><p>Fun fact: I have designed and created sweaters by crocheting!</p></div> */}
+                    <tr>
+                        <td class="left"><FontAwesomeIcon icon={faLaughBeam} className={"abt-icon"}/></td>
+                        <td><p>Hi, I'm Yuna. </p></td>
+                    </tr>
+                    <tr>
+                        <td class="left"><FontAwesomeIcon icon={faFileCode} className={"abt-icon"}/></td>
+                        <td><p>My latest project is recipro, a mobile app that connects neighbours to provide & reciprocate help. </p></td>
+                    </tr>
+                    <tr>   
+                        <td class="left"><FontAwesomeIcon icon={faHeart} className={"abt-icon"}/></td>
+                        <td><p>Some of my favourite tools are Python, C++, and React Native.</p></td>
+                    </tr>
+                    <tr>
+                        <td class="left"><FontAwesomeIcon icon={faSeedling} className={"abt-icon"}/></td>
+                        <td><p>I'm currently learning: Django, Jupyter Notebook</p></td>
+                    </tr>
+                    <tr>
+                        <td class="left"><FontAwesomeIcon icon={faHeadphonesAlt} className={"abt-icon"}/></td>
+                        <td><p>I love music!</p></td>
+                    </tr>
+                    {/* <div className={"left-item"}><FontAwesomeIcon icon={faPencilRuler} className={"abt-icon"}/></div>
+                    <div className={"right-item"}><p>Fun fact: I have designed and created sweaters by crocheting!</p></div> */}
                 </div>
-                <div className="btn">
-                    <a href="https://drive.google.com/file/d/1UeP4h7aHOz7l6wI7ltMp6iXC8X_zcBQX/view" target="blank">
+                </table>
+                <a href="https://drive.google.com/file/d/1UeP4h7aHOz7l6wI7ltMp6iXC8X_zcBQX/view" target="blank"
+                    className="download-btn">
                         Download resume
-                    </a>
-                </div>
+                </a>
+                
             </div>
         </div>
     )
 }
+// Hi! I'm yuna... I'm interested in... I'm currently learning... I'm looking to collaborate on..
 
 export default ImageSection;

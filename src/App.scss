@@ -2,7 +2,7 @@
 @import './styles/blogs';
 @import './styles/contact';
 @import './styles/layout';
-@import './styles/typography';
+@import './styles/home';
 @import './styles/navbar';
 @import './styles/skill';
 @import './styles/portfolios';
@@ -27,12 +27,20 @@ body::-webkit-scrollbar-track{
 }
 
 body{
-    color: #a4acc4;
+    color: $beige;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.2rem;
 }
-span{
-    // color: #037FFF;
+
+p, h5 {
+    color: $beige;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-weight: 300;
+}
+h5 {
+    font-weight: 500;
 }
 
 @media screen and (max-width: 411px){

@@ -6,10 +6,13 @@ function ServicesSection({image, title, text, where, date, link, list1, list2, l
             <div className="service">
                     <div className="service-content">
                         <img src={image} alt=""/>
-                        <a href={link} target='blank'><h5 className="s-title">
-                            {title}  |  <span>{where}</span>
-                            <br /><span className="s-date" >{date}</span>
-                        </h5></a>
+                        <a href={link} target='blank'>
+                            <h5 className="s-title">
+                                {title}  |  <span>{where}</span>
+                                <br />
+                                <span className="s-date" >{date}</span>
+                            </h5>
+                        </a>
                         <p className="s-text">
                             {text}
                         </p>
@@ -19,7 +22,6 @@ function ServicesSection({image, title, text, where, date, link, list1, list2, l
                             <li>{list3}</li>
                             <li>{list4}</li>
                         </ul></p>
-                        <p className='s-desc'>{link2}</p>
                     </div>
                 
             </div>

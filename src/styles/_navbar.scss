@@ -1,23 +1,19 @@
 .NavBar{
     height: 100vh;
-    .nav{
+    .nav {
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
 
-        .profile{
+        .profile {
             width: 100%;
             text-align: center;
             margin-top: 3rem;
-            //border: 1px solid #2e344e;
             img {
-                width: 50%;
+                width: 40%;
                 height: auto;
-                border-radius: 100%;
-                //border: 4px solid #2d283e;
-                //margin-bottom: 1.5rem;
             }
         }
 

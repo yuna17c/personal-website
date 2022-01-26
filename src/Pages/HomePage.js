@@ -13,17 +13,14 @@ function HomePage() {
                     Hi, I am 
                     <div className="rotation">
                         <span> Yuna Choi.</span>
-                        <span> a data scientist.</span>
-                        <span> an athlete.</span>
+                        <span> a person.</span>
+                        <span> a mother.</span>
                         <span> a student.</span>
-                        <span> a tech enthusiast.</span>
                     </div>
                 </h1>
                 <p className="h-sub-text">
-                    Learn more about <Link to="about" className="links">me</Link>, <Link to="portfolios" className="links">my projects</Link> and <Link to="blogs" className="links">my interests.</Link>
+                    Learn more about <Link to="about" className="links">me</Link>, <Link to="portfolios" className="links">my projects</Link> and <Link to="experience" className="links">my experience.</Link>
                 </p>
-                
-
                 <div className="icons">
                     <a href="https://www.facebook.com/profile.php?id=100009746978762" className="icon-holder" target="blank">
                         <FontAwesomeIcon icon={faFacebook} className="icon fb" />
