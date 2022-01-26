@@ -1,11 +1,11 @@
 import React from 'react';
-import Tittle from '../Components/Tittle';
+import Title from '../Components/Title';
 import allBlogs from '../Components/allBlogs';
 
 function BlogsPage() {
     return (
         <div >
-            <Tittle title={'More'} span={'More'} />
+            <Title title={'More'} span={'More'} />
             <h4>Coming Soon!</h4>
             {/* <div className="b-title">
                 <Tittle title={'MY Journey'} span={'MY Journey'} />

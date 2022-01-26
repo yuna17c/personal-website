@@ -11,13 +11,12 @@ import { faFilm } from '@fortawesome/free-solid-svg-icons';
 import { faSmileWink } from '@fortawesome/free-regular-svg-icons';
 
 
-{/* <i class="fas fa-globe"></i> */}
 function ImageSection() {
     return (
         <div className="ImageSection">
-            <div className="img">
+            {/* <div className="img">
                 <img src={about} alt=""/>
-            </div>
+            </div> */}
             <div className="about-info">
                 <h5>
                     Hi there, nice to meet you!
@@ -29,7 +28,7 @@ function ImageSection() {
                         <div className={"left-item"}><FontAwesomeIcon icon={faHandHoldingHeart} className={"abt-icon"}/></div>
                         <div className={"right-item"}><p>My latest project is recipro, a mobile app that connects neighbours to provide & reciprocate help. </p></div>
                         <div className={"left-item"}><FontAwesomeIcon icon={faLaptopCode} className={"abt-icon"}/></div>
-                        <div className={"right-item"}><p>Some of my favourite tools are Python, C++, and React Native, and I like working with APIs.</p></div>
+                        <div className={"right-item"}><p>Some of my favourite tools are Python, C++, and React Native.</p></div>
                         <div className={"left-item"}><FontAwesomeIcon icon={faFileContract} className={"abt-icon"}/></div>
                         <div className={"right-item"}><p>I'm currently learning: Django, Jupyter Notebook</p></div>
                         {/* <div className={"left-item"}><FontAwesomeIcon icon={faPencilRuler} className={"abt-icon"}/></div>

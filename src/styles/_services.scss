@@ -4,32 +4,31 @@ a:link, a:hover, a:visited, a:active {
 }
 .ServicesSection{
     .service{
-        font-family: 'Open sans';
+        border-radius: 15px;
+        background-color: $darkgray;
+        font-family: 'Montserrat', sans-serif;
         width: 95%;
-        //background-color: #f0e9e1;
-        // border-left: 1px solid #2e344e;
-        // border-right: 1px solid #2e344e;
-        // border-bottom: 1px solid #2e344e;
-        border-bottom: 5px solid #2e344e;
+        border-bottom: 5px solid $beige;
         transition: all .4s ease-in-out;
         @media screen and (max-width:1400px){
             width: 100%;
             margin-bottom: 4rem;
         }
         &:hover{
-            border-bottom: 5px solid #6382dd;
-            background-color: #f0e9e1;
+            border-bottom: 5px solid $primary;
         }
         img {
-            width: 13rem;
+            width: 8rem;
             height: auto;
+            padding: 0.2rem;
         }
         
         .service-content{
             padding: 1rem;
+            color: $beige;
             span {
-                color: black;
                 font-size: 1.2rem;
+                color: $beige;
                 font-weight: 400;
                 line-height: 1.9rem;
                 white-space: pre;
@@ -48,10 +47,9 @@ a:link, a:hover, a:visited, a:active {
             .s-desc {
                 padding-top: 10px;
                 font-size: 0.95rem;
-                color:#6382dd;
+                color:$primary;
             }
             p {
-                color: black;
                 font-weight: 300;
                 text-transform: none;
                 text-decoration: none;
@@ -62,7 +60,7 @@ a:link, a:hover, a:visited, a:active {
                 position: relative;
                 padding-bottom: 1rem;
                 margin: 1rem 0;
-                color: black;
+                color: $beige;
                 &::after{
                     content: "";
                     position: absolute;
@@ -70,7 +68,6 @@ a:link, a:hover, a:visited, a:active {
                     left: 0;
                     width: 30%;
                     height: 1px;
-                    background-color: #2e344e;
                 }
             }
         }

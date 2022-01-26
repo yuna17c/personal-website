@@ -3,7 +3,8 @@
     align-self: center;
     .contact {
         display: grid;
-        background-color:#f0e9e1; 
+        border-radius: 10px;
+        background-color:$darkgray; 
         grid-template-columns: 25% 75%;
         align-items: center;
         padding: 0.56rem 0;
@@ -12,19 +13,25 @@
             padding: 0.4rem;
             font-size: 2.7rem;
             cursor: pointer;
-            color: #2d283e;
-            border: 1px solid gray;
+            color: $lightgray;
+            transition: all linear 400ms;
+            border: 1px solid $lightgray;
         }
         .right-items {
             padding:0.4rem;
             h6 {
                 font-size: 1.15rem;
                 font-weight: 500;
-                color: black;
+                color: $beige;
             }
             p {
                 font-size: 1rem;
             }
+        }
+    }
+    &:hover {
+        .contact-icon {
+            color: $primary;
         }
     }
 }
@@ -51,24 +58,18 @@
     }
 }
 .right-items p {
-    color: #696461;
+    color: $beige;
     margin-top: 3px;
     font-size: 0.82rem;
 }
 .description {
-    color: #2d283e;
+    color: $beige;
     h5 {
         font-size: 1.5rem;
         margin-bottom: 0.78rem;
     }
 }
-.ContactItem {
-    border-bottom: #2d283e 4px solid;
-    transition: all 500ms;
-}
-.ContactItem:hover {
-    border-bottom: #6382dd 4px solid;
-}
+
 
 // .map-sect{
 //     width: 97%;

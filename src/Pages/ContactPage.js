@@ -3,7 +3,7 @@ import ContactItem from '../Components/ContactItem';
 import linkedin from '../img/linkedin.png';
 import email from '../img/emailme.svg';
 import location from '../img/location.svg';
-import Tittle from '../Components/Tittle';
+import Title from '../Components/Title';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
@@ -13,7 +13,7 @@ function ContactPage() {
     return (
         <div>
             <div className="title">
-                <Tittle title={'Contact Me'} span={'Contact Me'} />
+                <Title title={'Contact Me'} span={'Contact Me'} />
             </div>
             <div className="ContactPage">
                 <div className="description">

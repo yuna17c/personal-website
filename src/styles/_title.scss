@@ -2,7 +2,7 @@
     text-transform: uppercase;
     font-family: 'Nanum Pen Script';
     font-size: 2.3rem;
-    color: #2d283e;
+    color: $beige;
     position: relative;
     padding-bottom: 1rem;
     letter-spacing: 3px;
@@ -11,7 +11,7 @@
         bottom: 0;
         position: absolute;
         left: 0;
-        background-color: #6382dd;
+        background-color: $beige;
         width: 6rem;
         opacity: 0.4;
         height: .4rem;
@@ -23,7 +23,7 @@
         bottom: 0;
         position: absolute;
         left: 0;
-        background-color: #6382dd;
+        background-color: $beige;
         width: 3rem;
         height: .4rem;
         border-radius: 50px;
@@ -32,7 +32,7 @@
         position: absolute;
         top: 1%;
         left: 0;
-        color: #2d283e;
+        color: $beige;
         font-size: 5rem;
         opacity: 0.08;
     }

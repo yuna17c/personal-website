@@ -29,7 +29,7 @@
                 a {
                     text-decoration: none;
                     font-size: 1rem;
-                    color: #2d283e;
+                    color: $beige;
                     display: block;
                     padding: 1rem 0;
                     position: relative;
@@ -40,7 +40,7 @@
                         left: 0;
                         width: 0.4rem;
                         height: 100%;
-                        background-color: #6382dd;
+                        background-color: $primary;
                         transform-origin: bottom;
                         transform: scale(0);
                         overflow-x: hidden;
@@ -57,19 +57,13 @@
 
         .footer{
             width: 100%;
-            //border-top: 1px solid #2e344e;
-            p{
+            p {
                 text-align: center;
                 padding: 1rem 0;
-                font-size: 1rem;
+                font-size: 0.8rem;
                 color:gray;
             }
         }
     }
 }
-.nav-item a:after {
-    background-color: blue;
-}
-.active{
-    //background-color: #6382dd;
-}
+

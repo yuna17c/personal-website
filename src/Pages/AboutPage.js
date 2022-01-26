@@ -1,18 +1,18 @@
 import React from 'react'
-import Tittle from '../Components/Tittle'
 import ImageSection from '../Components/ImageSection';
 import SkillsSection from '../Components/SkillsSection';
 import ServicesSection from '../Components/ServicesSection';
-import novantas from '../img/novantas.png';
+import curinos from '../img/curinos.png';
 import intelligence from '../img/tutor.png';
-import gamedev from '../img/game-dev.svg';
+import wish from '../img/wish.png';
+import Title from '../Components/Title';
 
 function AboutPage() {
     return (
         <div className="AboutPage" id="about">
-            <Tittle title={'About Me'} span={'About Me'} />
+            <Title title={'About Me'} span={'About Me'} />
             <ImageSection />
-            <Tittle title={'My Skills'} span={'My Skills'} />
+            <Title title={'My Skills'} span={'My Skills'} />
             <div className="skillsContainer">
                 <SkillsSection skill={'Python'} progress={'95%'} width={'95%'} />
                 <SkillsSection skill={'C/C++'} progress={'95%'} width={'95%'} />
@@ -25,9 +25,13 @@ function AboutPage() {
                 {/* <SkillsSection skill={'UI/Ux Design'} progress={'76%'} width={'76%'} /> */}
             </div>
 
-            <Tittle title={'My Experience'} span={'My Experience'} />
+            <Title title={'My Experience'} span={'My Experience'} />
             <div className="servives-container">
-                <ServicesSection image={novantas} title={'Technical QA Engineer'} 
+                <ServicesSection image={wish} title={'Data Scientist'} 
+                text={'As a QA engineer, I designed and implemented debugging strategies for comprehensive and re-usable automated testing solutions. Over the four months of this internship, I:'} 
+                where={'Wish Contextlogic'} date={' JAN 2022 - APR 2022'} link={"https://curinos.com/"}
+                />
+                <ServicesSection image={curinos} title={'Technical QA Engineer'} 
                 text={'As a QA engineer, I designed and implemented debugging strategies for comprehensive and re-usable automated testing solutions. Over the four months of this internship, I:'} 
                 list1={'Wrote automation scripts using Python, Robot framework, and Cypress and tested API using Postman.'}
                 list2={'Participated in the development of Amplero, an AI based messaging app and Tikitapu, a data pipeline. '}

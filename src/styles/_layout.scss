@@ -1,8 +1,10 @@
+@import "colors";
+
 .App {
     .sidebar{
         width: 16%;
         height: 100vh;
-        background-color: #ffeddf;
+        background-color: $bg_color;
         position: fixed;
         z-index: 11;
         //border-right: 1px solid #2d283e;
@@ -11,7 +13,7 @@
             transition: all .4s ease-in-out;
             transform: translateX(-100%);
             width: 27%;
-            background-color: #ede1d8;
+            background-color: $bg_color;
         }
         @media screen and (max-width: 411px){
             width: 50%;
@@ -27,9 +29,8 @@
     .main-content{
         width: 84%;
         margin-left: 16%;
-        background-color: #ffeddf;
+        background-color: $bg_color;
         min-height: 100vh;
-        
         display: grid;
         position: relative;
         .content{

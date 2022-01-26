@@ -76,7 +76,7 @@
         h5 {
             font-size: 1.5rem;
             font-weight: 500;
-            color: #2d283e;
+            color: $beige;
             transition: all .3s ease-in-out;
             &:hover{
                 color:  #6382dd;
@@ -84,7 +84,7 @@
             }
         }
         p {
-            color:#2d283e;
+            color:$beige;
             padding-top: 0.35rem;
             font-size: 1rem;
             font-weight: 400;
