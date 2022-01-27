@@ -7,11 +7,14 @@ function Navbar() {
     return (
         <div className="NavBar">
             <nav className="nav">
-                <div className="profile">
+                {/* <div className="profile">
                     <img src={logo} alt=""/>
-                 </div>
+                 </div> */}
 
                 <ul className="nav-items">
+                    <li className="profile">
+                    <img src={logo} alt=""/>
+                    </li>
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">
                             Home
@@ -38,7 +41,6 @@ function Navbar() {
                         </NavLink>
                     </li>
                 </ul>
-
                 <footer className="footer">
                     <p>
                         @ 2022 Made By Yuna Choi

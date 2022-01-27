@@ -5,12 +5,17 @@
         font-size: 1rem;
         line-height: 1.5rem;
     }   
+    h5 {
+        font-size: 1.4rem;
+        padding-top: 4vh;
+        letter-spacing: 2px;
+    }
 }
 .ImageSection{
     display: flex;
     margin: 4rem 0;
     .about-info{
-        margin-left: 2rem;
+        margin-left: 1rem;
         .about-text {
             padding: 1rem 0;
         }
@@ -64,10 +69,12 @@
 
 .skillsContainer{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 3.5rem;
     row-gap: 2.5rem;
     margin: 3rem 0 4rem 0;
+    //border: red 2px solid;
+    height: fit-content;
     @media screen and (max-width: 1100px){
         grid-template-columns: repeat(1, 1fr);
     }

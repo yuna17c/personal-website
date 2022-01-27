@@ -8,13 +8,13 @@ import {Link} from 'react-router-dom';
 function HomePage() {
     return (
         <div className="HomePage">
-            <header className="hero">
+            <div className="hero">
                 <h1 className="hero-text">
                     Hi, I am 
                     <div className="rotation">
                         <span> Yuna Choi.</span>
-                        <span> a person.</span>
-                        <span> a mother.</span>
+                        <span> a data scientist.</span>
+                        <span> a music lover ♪♫</span>
                         <span> a student.</span>
                     </div>
                 </h1>
@@ -32,7 +32,7 @@ function HomePage() {
                         <FontAwesomeIcon icon={faLinkedin} className="icon yt"/>
                     </a>
                 </div>
-            </header>
+            </div>
         </div> 
     )
 }

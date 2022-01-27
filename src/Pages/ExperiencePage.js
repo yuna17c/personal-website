@@ -10,11 +10,15 @@ function ExperiencePage() {
     return (
         <div >
             <Title title={'My Experience'} span={'My Experience'} />
-            <div className="servives-container">
+            <table>
+            <div className="services-container">
+                <tr>
                 <ServicesSection image={wish} title={'Data Scientist'} 
                 text={'As a QA engineer, I designed and implemented debugging strategies for comprehensive and re-usable automated testing solutions. Over the four months of this internship, I:'} 
                 where={'Wish Contextlogic'} date={' JAN 2022 - APR 2022'} link={"https://curinos.com/"}
                 />
+                </tr>
+                <tr>
                 <ServicesSection image={curinos} title={'Technical QA Engineer'} 
                 text={'As a QA engineer, I designed and implemented debugging strategies for comprehensive and re-usable automated testing solutions. My roles over the four months of this internship include:'} 
                 list1={'Wrote automation scripts using Python, Robot framework, and Cypress and tested API using Postman.'}
@@ -23,6 +27,8 @@ function ExperiencePage() {
                 list4={'Interacted with the team to discuss code reviews and test analysis'}
                 where={'Curinos Inc.'} date={' MAY 2021 - AUG 2021'} link={"https://curinos.com/"}
                 />
+                </tr>
+                <tr>
                 <ServicesSection image={intelligence} title={'Math Tutor'} where={'Marc Andrei Tutoring'}
                 date={'SEP 2018 - APR 2020'} link={'https://www.marcandrei.com/'}
                 text={'Marc Andrei Tutoring is a student-founded group of student tutors that aim to aid students academically. As an individual with high achievements in mathematics, I mostly tutored math. '}
@@ -31,8 +37,9 @@ function ExperiencePage() {
                 list3={'Developed and prepared lesson plans and studying strategies to meet students’ goals'}
                 list4={'Communicated with students to attain feedback'}
                 />
+                </tr>
             </div>
-            
+            </table>
         </div>
     )
 }

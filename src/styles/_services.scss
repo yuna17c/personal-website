@@ -9,10 +9,7 @@ a:link, a:hover, a:visited, a:active {
         width: 95%;
         border-bottom: 5px solid $beige;
         transition: all .4s ease-in-out;
-        @media screen and (max-width:1400px){
-            width: 100%;
-            margin-bottom: 4rem;
-        }
+        margin-bottom: 4rem;
         &:hover{
             border-bottom: 5px solid $primary;
         }
@@ -49,12 +46,12 @@ a:link, a:hover, a:visited, a:active {
     }
 }
 
-.servives-container{
-    display: flex;
-    justify-content: space-between;
+.services-container{
+   // display: flex;
+    //justify-content: space-between;
     margin-top: 4.2rem;
     @media screen and (max-width:1400px){
-        flex-direction: column;
+        //flex-direction: column;
         margin-bottom: 2rem;
     }
 }

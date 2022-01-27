@@ -13,23 +13,23 @@ function ImageSection() {
                 <div className="about-details">
                     <tr>
                         <td class="left"><FontAwesomeIcon icon={faLaughBeam} className={"abt-icon"}/></td>
-                        <td><p>Hi, I'm Yuna. </p></td>
-                    </tr>
-                    <tr>
-                        <td class="left"><FontAwesomeIcon icon={faFileCode} className={"abt-icon"}/></td>
-                        <td><p>My latest project is recipro, a mobile app that connects neighbours to provide & reciprocate help. </p></td>
+                        <td><p>Hi, I'm Yuna 👋. </p></td>
                     </tr>
                     <tr>   
                         <td class="left"><FontAwesomeIcon icon={faHeart} className={"abt-icon"}/></td>
-                        <td><p>Some of my favourite tools are Python, C++, and React Native.</p></td>
+                        <td><p>I'm interested in data science, machine learning, and developing apps! Some of my favourite tools are Python, C++, and React.</p></td>
                     </tr>
                     <tr>
                         <td class="left"><FontAwesomeIcon icon={faSeedling} className={"abt-icon"}/></td>
-                        <td><p>I'm currently learning: Django, Jupyter Notebook</p></td>
+                        <td><p>I'm currently learning: Django, Jupyter Notebook </p></td>
+                    </tr>
+                    <tr>
+                        <td class="left"><FontAwesomeIcon icon={faFileCode} className={"abt-icon"}/></td>
+                        <td><p>My latest project is reci.py, a web app that helps find recipes and manage your fridge. </p></td>
                     </tr>
                     <tr>
                         <td class="left"><FontAwesomeIcon icon={faHeadphonesAlt} className={"abt-icon"}/></td>
-                        <td><p>I love music!</p></td>
+                        <td><p>I love music, crocheting, playing tennis, and skiing!</p></td>
                     </tr>
                     {/* <div className={"left-item"}><FontAwesomeIcon icon={faPencilRuler} className={"abt-icon"}/></div>
                     <div className={"right-item"}><p>Fun fact: I have designed and created sweaters by crocheting!</p></div> */}
@@ -44,6 +44,6 @@ function ImageSection() {
         </div>
     )
 }
-// Hi! I'm yuna... I'm interested in... I'm currently learning... I'm looking to collaborate on..
+//  I'm looking to collaborate on..
 
 export default ImageSection;
