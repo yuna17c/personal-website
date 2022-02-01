@@ -1,8 +1,5 @@
 import React from 'react'
 import ImageSection from '../Components/ImageSection';
-import SkillsSection from '../Components/SkillsSection';
-import ServicesSection from '../Components/ServicesSection';
-
 import Title from '../Components/Title';
 import SkillSection from '../Components/SkillSection';
 import cpp from '../img/cppp.png';
@@ -28,6 +25,15 @@ function AboutPage() {
                 <SkillIcon skill={'HTML/CSS'} icon={faHtml5} desc={ '4+ years experience' } color={'#FFB266'}></SkillIcon>
             </div>
             <h5>TOOLS/FRAMEWORK</h5>
+            <table className='toolsContainer'>
+                <td>React</td>
+                <td>Django</td>
+                <td>Node.js</td>
+                <td>Tableau</td>
+                <td>Selenium</td>
+                <td>Excel</td>
+                <td>React Native</td>
+            </table>
         </div>
     )
 }

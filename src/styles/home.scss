@@ -3,16 +3,21 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90vh;
+    width: 50vw;
     line-height: 1.4;
     .links {
         color: $primary;
     }
+    @media screen and (max-width: 1000px){
+        width: 70vw;
+    }
+    // @media screen and (max-width: 1400px){
+    //     width: 50vw;
+    // }
 }
 
 .hero-text {
     color: $beige;
-    top: 50%;
     padding-left: 5%;
     font-size: 4rem;
     margin-bottom: 0.5rem;
@@ -70,8 +75,11 @@
 }
 
 .h-sub-text {
-    font-size: 1.27rem;
+    font-size: 1.5rem;
     padding: 0.5rem 0 0.5rem 5.5%;
+    @media screen and (max-width: 1400px){
+        font-size: 1.27rem;
+    }
 }
 
 .icons {

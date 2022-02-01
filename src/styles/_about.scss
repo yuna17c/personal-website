@@ -50,6 +50,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 1.8rem;
+    text-align: center;
     padding: 0.7rem 0rem;
     background-color: $lightgray;
     border-radius: 12px;
@@ -124,4 +125,16 @@
     height: auto;
     border-radius: 12px;
     margin-bottom: 1rem;
+}
+
+.toolsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3vh 0;
+    justify-content: center;
+    gap: 4%;
+    td {
+        padding: 4vh;
+        border: $primary 2px solid;
+    }
 }

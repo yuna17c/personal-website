@@ -3,7 +3,7 @@ import port2 from '../img/nom.png';
 import port3 from '../img/spendix.png';
 import port4 from '../img/portImages/port4.jpg';
 import port5 from '../img/cyber1.PNG';
-import port7 from '../img/portImages/port6.jpg';
+import port7 from '../img/frig.png';
 
 const portfolios = [
     {
@@ -26,12 +26,12 @@ const portfolios = [
     },
     {
         id: 3,
-        category: 'Chrome extension',
-        link1: 'https://github.com/yuna17c/expense-tracker',
-        link2: 'finance',
-        image: port3,
-        title: 'Financial Analysis App',
-        desc:"A user interface application for personal finance analysis such as spending habits and budgeting."
+        category: 'Web App',
+        link1: 'https://github.com/yuna17c/reci.py',
+        link2: 'recipy',
+        image: port7,
+        title: 'reci.py',
+        desc:"A web implementation of the card game Rack-O."
     },
     {
         id: 4,
@@ -62,15 +62,13 @@ const portfolios = [
     },
     {
         id: 7,
-        category: 'Game',
-        link1: 'https://github.com/yuna17c/reci.py',
-        link2: 'racko',
-        icon1: 'Github',
-        icon2: 'Details',
-        image: port4,
-        title: 'reci.py',
-        desc:"A web implementation of the card game Rack-O."
-    },
+        category: 'Chrome extension',
+        link1: 'https://github.com/yuna17c/expense-tracker',
+        link2: 'finance',
+        image: port3,
+        title: 'Financial Analysis App',
+        desc:"A user interface application for personal finance analysis such as spending habits and budgeting."
+    }
 ]
 
 export default portfolios;

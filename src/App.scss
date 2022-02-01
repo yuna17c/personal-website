@@ -19,7 +19,7 @@ body::-webkit-scrollbar{
     width: 8px;
 }
 body::-webkit-scrollbar-thumb{
-    background-color: #6382dd;
+    background-color: $primary;
     border-radius: 50px;
 }
 body::-webkit-scrollbar-track{

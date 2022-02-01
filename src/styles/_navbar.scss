@@ -12,11 +12,10 @@
             img {
                 width: 35%;
                 height: auto;
-                margin-bottom: 5rem;
+                margin: 10vh 0;
             }
         }
         .nav-items {
-            margin-top: 15rem;
             width: 100%;
             .nav-item {
                 list-style: none;
@@ -31,10 +30,10 @@
                     &::before{
                         content: "";
                         position: absolute;
-                        top: 0;
+                        top: 10%;
                         left: 0;
-                        width: 0.4rem;
-                        height: 100%;
+                        width: 2.9%;
+                        height: 80%;
                         background-color: $primary;
                         transform-origin: bottom;
                         transform: scale(0);
