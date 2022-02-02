@@ -14,7 +14,7 @@ function ExperiencePage() {
             <div className="services-container">
                 <tr>
                 <ServicesSection image={wish} title={'Data Scientist'} 
-                text={'As a QA engineer, I designed and implemented debugging strategies for comprehensive and re-usable automated testing solutions. Over the four months of this internship, I:'} 
+                text={'As a Data scientist'} 
                 where={'Wish Contextlogic'} date={' JAN 2022 - APR 2022'} link={"https://curinos.com/"}
                 />
                 </tr>
@@ -30,7 +30,7 @@ function ExperiencePage() {
                 </tr>
                 <tr>
                 <ServicesSection image={intelligence} title={'Math Tutor'} where={'Marc Andrei Tutoring'}
-                date={'SEP 2018 - APR 2020'} link={'https://www.marcandrei.com/'}
+                date={'SEP 2018 - Present'} link={'https://www.marcandrei.com/'}
                 text={'Marc Andrei Tutoring is a student-founded group of student tutors that aim to aid students academically. As an individual with high achievements in mathematics, I mostly tutored math. '}
                 list1={'Taught 15+ high school students in math and science'}
                 list2={'Improved my students\' marks by 10-15%'}

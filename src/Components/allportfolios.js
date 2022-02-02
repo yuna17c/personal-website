@@ -31,7 +31,7 @@ const portfolios = [
         link2: 'recipy',
         image: port7,
         title: 'reci.py',
-        desc:"A web implementation of the card game Rack-O."
+        desc:"A web app to help find recipes using ingredients in your fridge."
     },
     {
         id: 4,
