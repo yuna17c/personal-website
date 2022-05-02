@@ -8,12 +8,12 @@ function ImageSection() {
     return (
         <div className="ImageSection">
             <div className="about-info">
-                <img src={pfp} alt="" id="pfp"/>
+                {/* <img src={pfp} alt="" id="pfp"/> */}
                 <table>
                 <div className="about-details">
                     <tr>
                         <td class="left"><FontAwesomeIcon icon={faLaughBeam} className={"abt-icon"}/></td>
-                        <td><p>Hi, I'm Yuna 👋. </p></td>
+                        <td><p>Hi 👋, I'm Yuna, a second year computer science student at University of Waterloo.  </p></td>
                     </tr>
                     <tr>   
                         <td class="left"><FontAwesomeIcon icon={faHeart} className={"abt-icon"}/></td>
@@ -25,7 +25,7 @@ function ImageSection() {
                     </tr>
                     <tr>
                         <td class="left"><FontAwesomeIcon icon={faFileCode} className={"abt-icon"}/></td>
-                        <td><p>My latest project is reci.py, a web app that helps find recipes and manage your fridge. </p></td>
+                        <td><p>My latest project is resume basket, a web app that matches resumes with web-scraped job postings using NLP. </p></td>
                     </tr>
                     <tr>
                         <td class="left"><FontAwesomeIcon icon={faHeadphonesAlt} className={"abt-icon"}/></td>

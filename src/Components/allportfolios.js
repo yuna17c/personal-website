@@ -4,6 +4,7 @@ import port3 from '../img/spendix.png';
 import port4 from '../img/portImages/port4.jpg';
 import port5 from '../img/cyber1.PNG';
 import port7 from '../img/frig.png';
+import port8 from '../img/jobasket.png';
 
 const portfolios = [
     {
@@ -17,12 +18,13 @@ const portfolios = [
     },
     {
         id: 2,
-        category: 'Mobile App',
-        link1: 'https://github.com/SongRe/Nom-v2.0',
-        link2: 'nom',
-        image: port2,
-        title: 'Nom.',
-        desc: "A mobile app that helps you manage your fridge by keeping track of fresh produce and planning your meals."
+        category: 'Web App',
+        link1: 'https://devpost.com/software/job-basket',
+        link2: '',
+        image: port8,
+        title: 'Job Basket',
+        desc:"A web application that matches resumes with web-scraped job postings using NLP."
+        
     },
     {
         id: 3,
@@ -53,12 +55,12 @@ const portfolios = [
     },
     {
         id: 6,
-        category: 'Game',
-        link1: 'https://github.com/yuna17c/Rack-O',
-        link2: 'racko',
-        image: port4,
-        title: 'Rack-O',
-        desc:"A web implementation of the card game Rack-O."
+        category: 'Mobile App',
+        link1: 'https://github.com/SongRe/Nom-v2.0',
+        link2: 'nom',
+        image: port2,
+        title: 'Nom.',
+        desc: "A mobile app that helps you manage your fridge by keeping track of fresh produce and planning your meals."
     },
     {
         id: 7,
@@ -68,6 +70,15 @@ const portfolios = [
         image: port3,
         title: 'Financial Analysis App',
         desc:"A user interface application for personal finance analysis such as spending habits and budgeting."
+    },
+    {
+        id: 8,
+        category: 'Game',
+        link1: 'https://github.com/yuna17c/Rack-O',
+        link2: 'racko',
+        image: port4,
+        title: 'Rack-O',
+        desc:"A web implementation of the card game Rack-O."
     }
 ]
 

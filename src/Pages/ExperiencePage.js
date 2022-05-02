@@ -15,15 +15,19 @@ function ExperiencePage() {
                 <tr>
                 <ServicesSection image={wish} title={'Data Scientist'} 
                 text={'As a Data scientist'} 
-                where={'Wish Contextlogic'} date={' JAN 2022 - APR 2022'} link={"https://curinos.com/"}
+                list1={'Queried data on Presto and TreasureData to analyze user behavioural trends of Wish Access, a subscription service, and provided data to make decisions regarding A/B testing and controlled experiments.'}
+                list2={'Investigated data about user behaviours related to shipping prices and identified an opportunity to increase the revenue by 22% while gaining user trust.'}
+                list3={'Created Tableau and Superset dashboards to monitor data trends and communicate with product managers.'}
+                list4={'Developed a pricing model for a subscription service based on historical user data and helped expand the service to different countries. '}
+                where={'Wish Contextlogic'} date={' JAN 2022 - APR 2022'} //link={"https://curinos.com/"}
                 />
                 </tr>
                 <tr>
                 <ServicesSection image={curinos} title={'Technical QA Engineer'} 
                 text={'As a QA engineer, I designed and implemented debugging strategies for comprehensive and re-usable automated testing solutions. My roles over the four months of this internship include:'} 
                 list1={'Wrote automation scripts using Python, Robot framework, and Cypress and tested API using Postman.'}
-                list2={'Participated in the development of Amplero, an AI based messaging app and Tikitapu, a data pipeline. '}
-                list3={'Created and maintained 100+ documentations for automated and manual testing'}
+                list2={'Participated in the development of Amplero, an AI based messaging app and Tikitapu, a data pipeline.'}
+                list3={'Created and maintained 200+ documentations for automated and manual testing'}
                 list4={'Interacted with the team to discuss code reviews and test analysis'}
                 where={'Curinos Inc.'} date={' MAY 2021 - AUG 2021'} link={"https://curinos.com/"}
                 />

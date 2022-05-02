@@ -15,7 +15,7 @@ function HomePage() {
                         <span> Yuna Choi.</span>
                         <span> a data scientist.</span>
                         <span> a music lover ♪♫</span>
-                        <span> a student.</span>
+                        <span> a software developer.</span>
                     </div>
                 </h1>
                 <p className="h-sub-text">
