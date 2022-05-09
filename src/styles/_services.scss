@@ -47,11 +47,8 @@ a:link, a:hover, a:visited, a:active {
 }
 
 .services-container{
-   // display: flex;
-    //justify-content: space-between;
     margin-top: 4.2rem;
     @media screen and (max-width:1400px){
-        //flex-direction: column;
         margin-bottom: 2rem;
     }
 }
