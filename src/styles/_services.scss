@@ -3,51 +3,41 @@ a:link, a:hover, a:visited, a:active {
 
 }
 .ServicesSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    // border: rgb(93, 218, 62) solid 2px;
+    img {
+        // border: red solid 2px;
+        width: 100%;
+        padding: 30px;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    .job-title {
+        // border-bottom: 2px red solid;
+        padding: 5px 13px;
+        border-bottom: 2px $primary solid;
+    }
     .service{
-        border-radius: 15px;
-        background-color: $darkgray;
-        width: 95%;
-        border-bottom: 5px solid $beige;
+        // border: #242e8d solid 2px;
         transition: all .4s ease-in-out;
-        margin-bottom: 4rem;
         &:hover{
             border-bottom: 5px solid $primary;
         }
-        img {
-            width: 8rem;
-            height: auto;
-            padding: 0.2rem;
-        }    
-        .service-content{
-            padding: 2rem;
-            span {
-                font-size: 1rem;
-                font-weight: 400;
-                line-height: 1.9rem;
-                white-space: pre;
-                text-decoration: none;
-            }
-            .s-list {
-                width: 95%;
-                padding-left: 2.5%;
-                padding-top: 10px;
-            }
-            .s-text, .s-list {
-                font-size: 1rem;
-                line-height: 1.5rem;
-            }
-            .s-title{
-                font-size: 1.3rem;
-                font-weight: 400;
-                position: relative;
-                margin: 1rem 0;
-            }
-        }
+    
     }
 }
 
 .services-container{
-    margin-top: 4.2rem;
+    // border:#702c2c solid 2px;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 4.2rem 0 6rem 0;
     @media screen and (max-width:1400px){
         margin-bottom: 2rem;
     }

@@ -65,19 +65,6 @@
     }
 }
 
-.skillsContainer{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 3.5rem;
-    row-gap: 2.5rem;
-    margin: 3rem 0 4rem 0;
-    //border: red 2px solid;
-    height: fit-content;
-    @media screen and (max-width: 1100px){
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
 .btn-port{
     padding: .4rem 1rem;
     background-color: $lightgray;
