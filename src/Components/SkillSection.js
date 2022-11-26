@@ -4,8 +4,8 @@ import React from 'react'
 function SkillSection({skill,img, icon, desc}) {
     return (
         <div className="skills-container">
-            <img src={img} />
-            <h5>{skill} <span>{desc}</span></h5>
+            <div><img src={img}/></div>
+            <div><h5>{skill}</h5></div>
         </div>
     )
 }

@@ -18,9 +18,6 @@ import jupyter from '../img/skills/jupyter.png';
 import react from '../img/skills/react.png';
 import node from '../img/skills/node.png';
 import jenkins from '../img/skills/jenkins.png';
-import { faHtml5, faJsSquare, faNodeJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
-import SkillIcon from '../Components/SkillIcon';
-import { faFileExcel } from '@fortawesome/free-solid-svg-icons';
 
 function ExperiencePage() {
     return (
@@ -49,8 +46,8 @@ function ExperiencePage() {
                 <SkillSection skill={'Django'} img={django} desc={''}></SkillSection>
                 <SkillSection skill={'Node.js'} img={node} desc={''}></SkillSection>
                 <SkillSection skill={'Tableau'} img={tableau} desc={''}></SkillSection>
-                <SkillSection skill={'React'} img={react} desc={''}></SkillSection>
                 <SkillSection skill={'Jenkins'} img={jenkins} desc={''}></SkillSection>
+                <SkillSection skill={'React'} img={react} desc={''}></SkillSection>
                 {/* <SkillSection skill={'JavaScript'} img={js} desc={ ': 1+ years' }></SkillSection> */}
             </div>
         </div>
