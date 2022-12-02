@@ -11,15 +11,14 @@ function HomePage() {
             <div className="hero">
                 <h1 className="hero-text">
                     Hi, I am 
-                    <div className="rotation">
+                    <span> Yuna Choi. </span>
+                    {/* <div className="rotation">
                         <span> Yuna Choi.</span>
                         <span> a data scientist.</span>
-                        <span> a music lover ♪♫</span>
-                        <span> a software developer.</span>
-                    </div>
+                    </div> */}
                 </h1>
                 <p className="h-sub-text">
-                    Learn more about <Link to="about" className="links">me</Link>, <Link to="portfolios" className="links">my projects</Link> and <Link to="experience" className="links">my experience.</Link>
+                    I'm a third year computer science student at University of Waterloo. I'm interested in data science, machine learning, and developing something! Learn more about <Link to="about" className="links">me</Link>, <Link to="portfolios" className="links">my projects</Link> and <Link to="experience" className="links">my experience.</Link>
                 </p>
                 <div className="icons">
                     <a href="https://www.facebook.com/profile.php?id=100009746978762" className="icon-holder" target="blank">
